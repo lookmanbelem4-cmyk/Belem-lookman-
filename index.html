@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Jardin du Saveur - Ouaga 2000</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              'sans': ['"Helvetica Neue"', 'Arial', 'sans-serif'],
+              'serif': ['"Georgia"', 'serif'],
+            },
+            colors: {
+              'primary': '#059669', // emerald-600
+              'primary-dark': '#047857', // emerald-700
+              'secondary': '#f59e0b', // amber-500
+              'light': '#f8fafc', // slate-50
+              'dark': '#1e293b', // slate-800
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      .hero-bg {
+        background-image: url('https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2&blur=2');
+        background-size: cover;
+        background-position: center;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "name": "Restaurant Jardin du Saveur",
+  "description": "Le site web officiel du Restaurant Jardin du Saveur, offrant une expérience culinaire exquise au cœur de Ouaga 2000, Ouagadougou. Découvrez notre menu, notre ambiance et réservez votre table.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
